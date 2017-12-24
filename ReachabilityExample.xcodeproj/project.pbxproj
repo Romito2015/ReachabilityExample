@@ -12,6 +12,7 @@
 		C9D4DA351FF0177E001E47DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D4DA331FF0177E001E47DE /* Main.storyboard */; };
 		C9D4DA371FF0177E001E47DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D4DA361FF0177E001E47DE /* Assets.xcassets */; };
 		C9D4DA3A1FF0177E001E47DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9D4DA381FF0177E001E47DE /* LaunchScreen.storyboard */; };
+		C9D4DA421FF01794001E47DE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4DA411FF01794001E47DE /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C9D4DA361FF0177E001E47DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9D4DA391FF0177E001E47DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9D4DA3B1FF0177E001E47DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D4DA411FF01794001E47DE /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C9D4DA231FF0177E001E47DE = {
 			isa = PBXGroup;
 			children = (
+				C9D4DA411FF01794001E47DE /* Reachability.swift */,
 				C9D4DA2E1FF0177E001E47DE /* ReachabilityExample */,
 				C9D4DA2D1FF0177E001E47DE /* Products */,
 			);
@@ -138,6 +141,7 @@
 			files = (
 				C9D4DA321FF0177E001E47DE /* ViewController.swift in Sources */,
 				C9D4DA301FF0177E001E47DE /* AppDelegate.swift in Sources */,
+				C9D4DA421FF01794001E47DE /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
